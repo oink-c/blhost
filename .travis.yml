@@ -7,14 +7,16 @@ compiler:
 
 matrix:
   include:
-    - os: osx
-      env: PLATFORM=mac DOCKERBUILD=0
-    - os: linux
-      env: PLATFORM=amd64 DOCKERBUILD=0
-    - os: linux
-      env: PLATFORM=i386 DOCKERBUILD=1
+    #- os: osx
+    #  env: PLATFORM=mac DOCKERBUILD=0
+    #- os: linux
+    #  env: PLATFORM=amd64 DOCKERBUILD=0
+    #- os: linux
+    #  env: PLATFORM=i386 DOCKERBUILD=1
     - os: linux
       env: PLATFORM=armv7l DOCKERBUILD=1
+    - os: linux
+      env: PLATFORM=arm64 DOCKERBUILD=1
 
 services:
   - docker
