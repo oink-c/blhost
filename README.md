@@ -2,7 +2,7 @@
 
 #### Modified by Kristian Lauszus, 2018-2020
 _________
-[![Build Status](https://travis-ci.com/github/oink-c/blhost.svg?branch=master)](https://travis-ci.org/github/oink-c/blhost)
+[![Build Status](https://api.travis-ci.org/oink-c/blhost.svg?branch=master)](https://travis-ci.com/github/oink-c/blhost)
 
 
 ### Changes

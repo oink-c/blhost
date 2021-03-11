@@ -59,4 +59,5 @@ deploy:
   file: "blhost-*"
   skip_cleanup: true
   on:
+    all_branches: true
     tags: true
