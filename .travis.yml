@@ -16,7 +16,7 @@ matrix:
     - os: linux
       env: PLATFORM=armv7l DOCKERBUILD=1
     - os: linux
-      env: PLATFORM=arm64 DOCKERBUILD=1
+      env: PLATFORM=arm64 DOCKERBUILD=0
 
 services:
   - docker
