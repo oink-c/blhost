@@ -4,7 +4,6 @@
 _________
 [![Build Status](https://api.travis-ci.org/oink-c/blhost.svg?branch=master)](https://travis-ci.com/github/oink-c/blhost)
 
-
 ### Changes
 
 * Can now compile the code using GCC on Mac
