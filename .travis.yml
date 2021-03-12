@@ -54,7 +54,7 @@ script:
 
 deploy:
   provider: releases
-  api_key: 4aa475ba56ca98b8ef3d199266111087a4c526d3
+  api_key: "4497085add047bc64382fe345834703ec61facbc"
   file_glob: true
   file: "blhost-*"
   skip_cleanup: true
